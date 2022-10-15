@@ -1,0 +1,27 @@
+@import url('reset.css');
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+header ul {
+    margin-left: 50px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+
+}
+
+footer p {
+    color: blue;
+    font-size: 20px;
+}
