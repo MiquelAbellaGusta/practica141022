@@ -1,0 +1,14 @@
+@import url('reset.css');
+
+h1, h2{
+    color: red
+}
+
+h1{
+    font-size: 240%;
+    font-style: italic;
+}
+
+h2{
+    font-weight: bold;
+}
