@@ -33,3 +33,32 @@ header div {
     margin-left: 80px;
     margin-bottom: 60px;
 }
+
+#central {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.foot {
+    margin-top: 20px;
+    width: 290px;
+    height: 180px;
+
+}
+
+
+
+main ul {
+    margin-left: 13%;
+}
+
+main ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+main a {
+    color: orange;
+}
