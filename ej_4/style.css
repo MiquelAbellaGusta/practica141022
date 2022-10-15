@@ -1,0 +1,15 @@
+@import url('reset.css');
+
+td {
+    border: double #333 3px;
+    border-collapse: collapse;
+}
+
+th {
+    border: double #333 3px;
+    border-collapse: collapse;
+}
+
+.caract {
+    font-weight: bold;
+}
