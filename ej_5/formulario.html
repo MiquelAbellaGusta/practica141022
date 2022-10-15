@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form>
+            <div>
+                <input type="text" id="nombre">
+                <label for="nombre">Nombre</label>
+
+            </div>
+            <div>
+                <input type="text" id="apellidos">
+                <label for="apellidos">Apellidos</label>
+
+            </div>
+            <div>
+                <input type="numero" id="edad">
+                <label for="edad">Edad</label>
+
+            </div>
+            <div>
+                <input type="text" id="ciudad">
+                <label for="ciudad">Ciudad</label>
+
+            </div>
+            <div>
+                <input type="tel" id="ntel">
+                <label for="ntel">Número de teléfono</label>
+
+            </div>
+            <div>
+                <input type="email" id="email">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="imagen">
+                <label for="imagen">Imagen</label>
+                <input type="file" name="imagen1" />
+            </div>
+
+            <legend>Sobre ti</legend>
+
+            <textarea name="aficiones" id="aficiones" cols="30" rows="10"> Aficiones</textarea>
+
+            <textarea name="bp" id="bp" cols="30" rows="10"> Breve presentación</textarea>
+    </fieldset>
+
+    <button id="boton" type="submit">Subscribete a la newsletter</button>
+
+    </form>
+</body>
+
+</html>
